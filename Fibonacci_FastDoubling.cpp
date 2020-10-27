@@ -6,6 +6,9 @@ ll mod = 1000000007;
 
 // Based on the formula F(2*n) = F(n)*[2*F(n+1) - F(n)] and F(2*n+1) = F(n)*F(n) + F(n+1)*F(n+1)
 
+//Derivation:
+//    https://math.stackexchange.com/a/3270571
+
 ll an[2] = {0};
 
 void solve(ll n){
